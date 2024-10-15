@@ -1,0 +1,10 @@
+Button {
+}
+
+Label {
+    font-size: 30px;
+}
+
+Button:hover {
+    translate: 0 -3px;
+}

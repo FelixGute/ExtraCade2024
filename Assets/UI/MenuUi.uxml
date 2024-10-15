@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/menu-uss.uss?fileID=7433441132597879392&amp;guid=1e023c92b2ec3f843ae3099efb7ecb22&amp;type=3#menu-uss" />
+    <ui:VisualElement tabindex="0" style="flex-grow: 1; width: 50%; height: initial; align-self: center; margin-top: 60px; margin-right: 1px; margin-bottom: 1px; margin-left: 1px;">
+        <ui:Label tabindex="-1" text="Menu&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+        <ui:Button text="Start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Start-Button" />
+        <ui:Button text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Quit-Button" />
+    </ui:VisualElement>
+</ui:UXML>

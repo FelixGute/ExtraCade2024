@@ -1,0 +1,19 @@
+.label {
+    font-size: 24px;
+    -unity-text-outline-color: rgba(136, 135, 135, 0);
+    color: rgb(228, 206, 206);
+}
+
+.label--bold {
+    -unity-font-style: bold;
+    font-size: 24px;
+}
+
+VisualElement {
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    visibility: visible;
+    overflow: visible;
+    display: flex;
+}
